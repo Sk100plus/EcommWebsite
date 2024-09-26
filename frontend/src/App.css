@@ -1,0 +1,240 @@
+.nav-ul li{
+display:inline-block;
+padding: 10px;
+text-decoration: none;
+
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  .App-logo {
+    animation: App-logo-spin infinite 20s linear;
+  }
+}
+/* Links */
+.pi{
+  color:#fff;
+  padding:5px;
+  text-decoration: none;
+}
+.pi:hover{
+  color:blue;
+  transition: all ease-in 0.4s;
+}
+.nav-right{
+  text-align: right;
+}
+.logo{
+  width: 45px;
+  float: left;
+  border-radius: 50%;
+  margin-left: 7px;
+  margin-top: 4px;
+}
+.inputBox{
+  display: block;
+  margin: 25px;
+  padding: 7px;
+  width: 300px;
+  border: 1px solid skyblue;
+}
+.login
+{
+  margin-left: 30%;
+  margin-top:100px ;
+}
+.inputBox:hover{
+  border: 3px solid skyblue;
+}
+.register,.product{
+  margin-left: 30%;
+}
+.product-list{
+  text-align: center;
+  margin-top: 50px;
+}
+
+.product-list ul li{
+  display: inline-block;
+  border: 1px solid skyblue;
+  padding: 5px;
+  width: 150px;
+}
+
+.search-product-box{
+  width: 300px;
+  margin: 20px;
+  height: 35px;
+  border: 1px solid skyblue;
+  padding-left:20px ;
+  border-radius: 5px ;
+  outline: none;
+}
+.search-product-box:hover{
+  border-color: skyblue;
+  border: 3px solid skyblue;
+  transition: all ease-in-out 0.9s;
+}
+
+.product-list ul{
+  margin: 0;
+}
+
+ .invalid-input{
+  color: red;
+  margin-top: -20px;
+  display: block;
+  margin-left: 20px;
+ }
+.nav-ul{
+  padding: 5px;
+  margin: 0;
+  background-color: skyblue;
+}
+.footer{
+  position: absolute;
+  bottom: 0;
+  text-align: center;
+  width: 100%;
+  background-color: skyblue;
+}
+.App-header {
+  background-color: #282c34;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+
+.App-link {
+  color: #61dafb;
+}
+
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+
+/* .product{
+  text-align: center;
+}*/
+/* .row-product{
+  width:200%; 
+}  */
+/* .Form_data{
+  margin: 0 auto; 
+}
+.appButton{
+  margin: 0 auto; 
+} */
+/* Ensure the body and html take up the full height of the viewport */
+html, body {
+  height: 100%;
+  margin: 0;
+}
+
+.AddProduct {
+  text-align: center;
+  margin-top: 5%;
+  
+  
+}
+
+.product {
+  /* max-width: 500px;  */
+  width: 40%;
+  background-color: #f9f9f9; /* Optional: background color for better visibility */
+  /* padding: 20px; Add padding inside the container */
+  border-radius: 8px; /* Optional: rounded corners */
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1); 
+  margin-left: 30%;
+  margin-right: 0%;
+}
+
+.input {
+  margin-bottom: 15px;
+  width: 90%; /* Space between input fields */
+  margin-left: 0;
+  margin-right: 0;
+}
+
+.inputBox {
+  width: 100%; /* Ensure inputs take full width of their container */
+}
+
+.invalid-input {
+  color: red;
+  font-size: 0.875rem; /* Slightly smaller font for error messages */
+}
+
+@media (max-width: 768px) {
+  .product {
+    /* padding: 15px; */
+    width: 60%; 
+  }
+  .input {
+    margin-bottom: 15px;
+    width: 90%; /* Space between input fields */
+    margin-left: 0%;
+  }
+}
+
+@media (max-width: 576px) {
+  .product {
+    padding: 10px; /* Further reduce padding on very small screens */
+  }
+
+  .invalid-input {
+    font-size: 0.75rem; /* Smaller error messages on very small screens */
+  }
+}
+.but{
+  margin-bottom:5%;
+}
+.btnupdate{
+  text-align: center;
+  margin-bottom: 5%;
+
+}
+.update{
+width: 100%;
+align-items: center;
+/* margin-left: 100%; */
+}
+.updateMain{
+ align-items: center;
+}
+.btnupdateLogin{
+  text-align: center;
+  /* color: rgb(0, 162, 255); */
+  
+}
+.wtf{
+  width: 30%;
+}
+.form-container {
+  width: 100%;
+  max-width: 100%; /* Ensure it takes up full width within its container */
+}
+
+/* Styles for screen width greater than 766px */
+@media (min-width: 766px) {
+  .form-container {
+      max-width: 40%; /* Adjust the width as needed */
+  }
+}
+.registerbut{
+  text-align: center;
+  padding-top: 1%;
+}
+.registerButton{
+  width: 30%;
+  padding-top: 20%;
+  
+}

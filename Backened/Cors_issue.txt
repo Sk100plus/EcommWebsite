@@ -1,0 +1,4 @@
+********HOW TO RESOLVE CORS ISSUE IN NODEJS*******
+STEP1 : RUN: npm i cors
+const cors=require("cors");
+app.use("cors");
